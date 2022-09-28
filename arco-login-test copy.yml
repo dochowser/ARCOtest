@@ -1,0 +1,54 @@
+config:
+  target: "https://alpha.spgcontrols.com/"
+  tls:
+      rejectUnauthorized: false 
+  engines:
+    playwright:
+      launchOptions:
+        headless: false
+        timeout: 720000
+  processor: "./eloy.js"
+  phases:
+    - name: "login"
+      duration: 1
+      arrivalRate: 1
+      # rampTo: 5
+  environments:
+    users:
+      target: "https://alpha.spgcontrols.com/users/list"
+      engines:
+        playwright:
+          launchOptions:
+          headless: false
+          timeout: 720000
+      processor: "./eloy2.js"
+      phases:
+      - name: "users_page"
+        duration: 1
+        arrivalRate: 1
+    #   rampTo: 10
+    scenarios:
+    - name: "navigate_user_page"
+      engine: playwright
+      flowFunction: "usersPage"
+      flow: []
+    sites:
+      target: "https://alpha.spgcontrols.com/hardware/sites/list/"
+      phases:
+      - name: "sites"
+        duration: 50
+        arrivalRate: 1
+    #   rampTo: 30
+scenarios:
+  - name: "users_login"
+    engine: playwright
+    flowFunction: "arcoLogin"
+    flow: []
+  # - name: "navigate_user_page"
+  #   engine: playwright
+  #   flowFunction: "usersPage"
+  #   flow: []
+  # - name: "navigate_sites_page"
+  #   engine: playwright
+  #   flowFunction: "sitePage"
+  #   flow: []

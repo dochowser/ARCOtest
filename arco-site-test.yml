@@ -1,0 +1,37 @@
+config:
+  target: "https://alpha.spgcontrols.com/"
+  tls:
+      rejectUnauthorized: false 
+  engines:
+    playwright:
+      launchOptions:
+        # use: { storageState: 'storageState.json'}
+        headless: true
+        timeout: 720000
+  processor: "./eloy.js"
+  phases:
+    - name: "login"
+      duration: 20
+      arrivalRate: 3
+      rampTo: 5
+    # - name: "users_page"
+    #   duration: 30
+    #   arrivalRate: 7
+    #   rampTo: 10
+    # - name: "sites"
+    #   duration: 50
+    #   arrivalRate: 10
+    #   rampTo: 30
+scenarios:
+  - name: "users_login"
+    engine: playwright
+    flowFunction: "arcoLogin"
+    flow: []
+  # - name: "navigate_user_page"
+  #   engine: playwright
+  #   flowFunction: "usersPage"
+  #   flow: []
+  # - name: "navigate_sites_page"
+  #   engine: playwright
+  #   flowFunction: "sitePage"
+  #   flow: []

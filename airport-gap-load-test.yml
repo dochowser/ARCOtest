@@ -1,0 +1,9 @@
+config:
+  target: "https://airportgap.dev-tester.com"
+  engines:
+    playwright: {}
+  processor: "./airport-gap-test.js"
+scenarios:
+  - engine: playwright
+    flowFunction: "airportsList"
+    flow: []

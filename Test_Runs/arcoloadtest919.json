@@ -1,0 +1,269 @@
+{
+  "aggregate": {
+    "counters": {
+      "vusers.created_by_name.0": 1,
+      "vusers.created": 1,
+      "engine.browser.http_requests": 420,
+      "engine.browser.page.domcontentloaded": 1,
+      "engine.browser.page.domcontentloaded.https://alpha.spgcontrols.com/login": 1,
+      "vusers.failed": 1
+    },
+    "rates": {},
+    "firstCounterAt": 1663561965240,
+    "firstHistogramAt": 1663561968561,
+    "lastCounterAt": 1663562009398,
+    "lastHistogramAt": 1663561970270,
+    "firstMetricAt": 1663561965240,
+    "lastMetricAt": 1663562009398,
+    "period": 1663562000000,
+    "summaries": {
+      "engine.browser.memory_used_mb": {
+        "min": 37.1,
+        "max": 37.1,
+        "count": 1,
+        "p50": 37,
+        "median": 37,
+        "p75": 37,
+        "p90": 37,
+        "p95": 37,
+        "p99": 37,
+        "p999": 37
+      },
+      "engine.browser.page.dominteractive": {
+        "min": 381,
+        "max": 381,
+        "count": 1,
+        "p50": 383.8,
+        "median": 383.8,
+        "p75": 383.8,
+        "p90": 383.8,
+        "p95": 383.8,
+        "p99": 383.8,
+        "p999": 383.8
+      },
+      "engine.browser.page.dominteractive.https://alpha.spgcontrols.com/login": {
+        "min": 381,
+        "max": 381,
+        "count": 1,
+        "p50": 383.8,
+        "median": 383.8,
+        "p75": 383.8,
+        "p90": 383.8,
+        "p95": 383.8,
+        "p99": 383.8,
+        "p999": 383.8
+      },
+      "engine.browser.page.FCP.https://alpha.spgcontrols.com/login": {
+        "min": 4252.1,
+        "max": 4252.1,
+        "count": 1,
+        "p50": 4231.1,
+        "median": 4231.1,
+        "p75": 4231.1,
+        "p90": 4231.1,
+        "p95": 4231.1,
+        "p99": 4231.1,
+        "p999": 4231.1
+      }
+    },
+    "histograms": {
+      "engine.browser.memory_used_mb": {
+        "min": 37.1,
+        "max": 37.1,
+        "count": 1,
+        "p50": 37,
+        "median": 37,
+        "p75": 37,
+        "p90": 37,
+        "p95": 37,
+        "p99": 37,
+        "p999": 37
+      },
+      "engine.browser.page.dominteractive": {
+        "min": 381,
+        "max": 381,
+        "count": 1,
+        "p50": 383.8,
+        "median": 383.8,
+        "p75": 383.8,
+        "p90": 383.8,
+        "p95": 383.8,
+        "p99": 383.8,
+        "p999": 383.8
+      },
+      "engine.browser.page.dominteractive.https://alpha.spgcontrols.com/login": {
+        "min": 381,
+        "max": 381,
+        "count": 1,
+        "p50": 383.8,
+        "median": 383.8,
+        "p75": 383.8,
+        "p90": 383.8,
+        "p95": 383.8,
+        "p99": 383.8,
+        "p999": 383.8
+      },
+      "engine.browser.page.FCP.https://alpha.spgcontrols.com/login": {
+        "min": 4252.1,
+        "max": 4252.1,
+        "count": 1,
+        "p50": 4231.1,
+        "median": 4231.1,
+        "p75": 4231.1,
+        "p90": 4231.1,
+        "p95": 4231.1,
+        "p99": 4231.1,
+        "p999": 4231.1
+      }
+    }
+  },
+  "intermediate": [
+    {
+      "counters": {
+        "vusers.created_by_name.0": 1,
+        "vusers.created": 1,
+        "engine.browser.http_requests": 26,
+        "engine.browser.page.domcontentloaded": 1,
+        "engine.browser.page.domcontentloaded.https://alpha.spgcontrols.com/login": 1
+      },
+      "rates": {},
+      "firstCounterAt": 1663561965240,
+      "firstHistogramAt": 1663561968561,
+      "lastCounterAt": 1663561969988,
+      "lastHistogramAt": 1663561968563,
+      "firstMetricAt": 1663561965240,
+      "lastMetricAt": 1663561969988,
+      "period": "1663561960000",
+      "summaries": {
+        "engine.browser.memory_used_mb": {
+          "min": 37.1,
+          "max": 37.1,
+          "count": 1,
+          "p50": 37,
+          "median": 37,
+          "p75": 37,
+          "p90": 37,
+          "p95": 37,
+          "p99": 37,
+          "p999": 37
+        },
+        "engine.browser.page.dominteractive": {
+          "min": 381,
+          "max": 381,
+          "count": 1,
+          "p50": 383.8,
+          "median": 383.8,
+          "p75": 383.8,
+          "p90": 383.8,
+          "p95": 383.8,
+          "p99": 383.8,
+          "p999": 383.8
+        },
+        "engine.browser.page.dominteractive.https://alpha.spgcontrols.com/login": {
+          "min": 381,
+          "max": 381,
+          "count": 1,
+          "p50": 383.8,
+          "median": 383.8,
+          "p75": 383.8,
+          "p90": 383.8,
+          "p95": 383.8,
+          "p99": 383.8,
+          "p999": 383.8
+        }
+      },
+      "histograms": {
+        "engine.browser.memory_used_mb": {
+          "min": 37.1,
+          "max": 37.1,
+          "count": 1,
+          "p50": 37,
+          "median": 37,
+          "p75": 37,
+          "p90": 37,
+          "p95": 37,
+          "p99": 37,
+          "p999": 37
+        },
+        "engine.browser.page.dominteractive": {
+          "min": 381,
+          "max": 381,
+          "count": 1,
+          "p50": 383.8,
+          "median": 383.8,
+          "p75": 383.8,
+          "p90": 383.8,
+          "p95": 383.8,
+          "p99": 383.8,
+          "p999": 383.8
+        },
+        "engine.browser.page.dominteractive.https://alpha.spgcontrols.com/login": {
+          "min": 381,
+          "max": 381,
+          "count": 1,
+          "p50": 383.8,
+          "median": 383.8,
+          "p75": 383.8,
+          "p90": 383.8,
+          "p95": 383.8,
+          "p99": 383.8,
+          "p999": 383.8
+        }
+      }
+    },
+    {
+      "counters": {
+        "engine.browser.http_requests": 117
+      },
+      "rates": {},
+      "firstCounterAt": 1663561970181,
+      "firstHistogramAt": 1663561970270,
+      "lastCounterAt": 1663561979417,
+      "lastHistogramAt": 1663561970270,
+      "firstMetricAt": 1663561970181,
+      "lastMetricAt": 1663561979417,
+      "period": "1663561970000",
+      "summaries": {
+        "engine.browser.page.FCP.https://alpha.spgcontrols.com/login": {
+          "min": 4252.1,
+          "max": 4252.1,
+          "count": 1,
+          "p50": 4231.1,
+          "median": 4231.1,
+          "p75": 4231.1,
+          "p90": 4231.1,
+          "p95": 4231.1,
+          "p99": 4231.1,
+          "p999": 4231.1
+        }
+      },
+      "histograms": {
+        "engine.browser.page.FCP.https://alpha.spgcontrols.com/login": {
+          "min": 4252.1,
+          "max": 4252.1,
+          "count": 1,
+          "p50": 4231.1,
+          "median": 4231.1,
+          "p75": 4231.1,
+          "p90": 4231.1,
+          "p95": 4231.1,
+          "p99": 4231.1,
+          "p999": 4231.1
+        }
+      }
+    },
+    {
+      "counters": {
+        "engine.browser.http_requests": 27
+      },
+      "rates": {},
+      "firstCounterAt": 1663561980160,
+      "lastCounterAt": 1663561989957,
+      "firstMetricAt": 1663561980160,
+      "lastMetricAt": 1663561989957,
+      "period": "1663561980000",
+      "summaries": {},
+      "histograms": {}
+    }
+  ]
+}
