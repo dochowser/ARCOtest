@@ -1,0 +1,31 @@
+config:
+  target: "https://localhost/"
+  engines:
+    playwright:
+      defaultTimeout: 300000
+      launchOptions:
+        headless: true
+        timeout: 720000
+      contextOptions:
+        ignoreHTTPSErrors: true
+  processor: "./arco-artillery.js"
+  phases:
+    - duration: 20
+      arrivalCount: 10
+before:
+  engine: playwright
+  flowFunction: "arcoLogin"
+  flow: []
+scenarios:
+  - name: "users_dashboard"
+    engine: playwright
+    flowFunction: "arcoDashboard"
+    flow: []
+  - name: "navigate_user_page"
+    engine: playwright
+    flowFunction: "usersPage"
+    flow: []
+  - name: "navigate_sites_page"
+    engine: playwright
+    flowFunction: "sitePage"
+    flow: []
