@@ -12,7 +12,7 @@ config:
   processor: "./arco-artillery.js"
   phases:
     - duration: 60
-      arrivalCount: 125
+      arrivalCount: 65
     # - duration: 60
     #   arrivalCount: 30
     # - duration: 60
